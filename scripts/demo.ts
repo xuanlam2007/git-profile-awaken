@@ -11,7 +11,7 @@ import { renderBento } from '../src/presentation/layouts.js';
 import { THEMES } from '../src/presentation/theme/themes.js';
 import { extrasOf, renderWidgets } from '../src/presentation/widgets/index.js';
 
-const username = process.env.DEMO_USER ?? 'billtruong003';
+const username = process.env.DEMO_USER ?? 'xuanlam2007';
 const token = process.env.GITHUB_TOKEN;
 if (!token) throw new Error('Set GITHUB_TOKEN.');
 
