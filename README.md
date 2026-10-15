@@ -6,16 +6,20 @@
 
 Your GitHub profile, rendered as the System window from a LitRPG: ranks from E to EX measured against real GitHub players, a job class, titles you earn, achievements, and a year of contributions that rises as a shadow army. Ten README layouts, 31 themes, 602 logos for your arsenal. A GitHub Action rebuilds it every night.
 
+<p>
+  <i>Personal repository by <a href="https://github.com/xuanlam2007">Xuan Lam</a>. Built on the original project by <a href="https://github.com/billtruong003/git-profile-awaken">BillTheDev</a>.</i>
+</p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="demo/hunter-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="demo/hunter-light.svg">
-  <img src="demo/hunter-dark.svg" width="100%" alt="Hunter license of billtruong003">
+  <img src="demo/hunter-dark.svg" width="100%" alt="Hunter license of xuanlam2007">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="demo/ladder-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="demo/ladder-light.svg">
-  <img src="demo/ladder-dark.svg" width="100%" alt="Rank ladder: where billtruong003 stands among regular GitHub players">
+  <img src="demo/ladder-dark.svg" width="100%" alt="Rank ladder: where xuanlam2007 stands among regular GitHub players">
 </picture>
 
 <picture>
@@ -26,9 +30,9 @@ Your GitHub profile, rendered as the System window from a LitRPG: ranks from E t
 
 </div>
 
-Every number on these images is real and comes from the GitHub API. They are regenerated daily from [billtruong003](https://github.com/billtruong003).
+Every number on these images is real and comes from the GitHub API. They are regenerated daily from [xuanlam2007](https://github.com/xuanlam2007).
 
-**[Website and configurator](https://git-profile-awaken.vercel.app)** · **[User guide](docs/guide.md)** · **[Developer guide](docs/development.md)**
+**[Website and configurator](https://git-profile-awaken.vercel.app)** · **[User guide](docs/guide.md)** · **[Developer guide](docs/development.md)** · **[Original repository](https://github.com/billtruong003/git-profile-awaken)**
 
 ## Hall of Hunters
 
@@ -85,7 +89,7 @@ You need a profile repository (the repository named after your username, the one
        runs-on: ubuntu-latest
        steps:
          - uses: actions/checkout@v4
-         - uses: billtruong003/git-profile-awaken@main
+         - uses: xuanlam2007/git-profile-awaken@main
    ```
 
 3. Put these two lines where the widgets should appear in your `README.md`, then run the workflow once from the Actions tab:
@@ -289,4 +293,7 @@ To add a theme, add six seed colors to [`themes.ts`](src/presentation/theme/them
 
 Fonts: [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch) and [JetBrains Mono](https://www.jetbrains.com/lp/mono/), both under the SIL Open Font License, embedded as subsets. Language, tool and social logos come from [Simple Icons](https://simpleicons.org) (CC0); the logos are trademarks of their owners. Inspired by the System in *Solo Leveling*; this project is not affiliated with it.
 
-MIT © [BillTheDev](https://github.com/billtruong003)
+Originally created by [BillTheDev](https://github.com/billtruong003) under the MIT License ([`billtruong003/git-profile-awaken`](https://github.com/billtruong003/git-profile-awaken)).
+Maintained as an independent repository by [Xuan Lam](https://github.com/xuanlam2007).
+
+MIT © [BillTheDev](https://github.com/billtruong003) & [Xuan Lam](https://github.com/xuanlam2007)
